@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/course website/styleNasset/deltratech_icon1.ico" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="styleNasset/profile.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="topcorner">
+        <ion-icon name="help-circle" onclick="faq()"></ion-icon>
+        <p onclick="logout()">LogOut</p>
+    </div>
+    <div class="heading">
+        <h2 style="margin-bottom: 5px;">My Profile</h2>
+        <h1 id="displayname" style="margin-top: 5px;">Username</h1>
+    </div>
+    <div class="crsCon" onclick="coursepage()">
+        <h3>Introduction</h3>
+        <div id="intrd"></div>
+    </div>
+    <div class="crsCon" onclick="coursepage()">
+        <h3>Course 1</h3>
+        <div id="crs1prg"></div>
+    </div>
+    <div class="crsCon" onclick="coursepage()">
+        <h3>Course 2</h3>
+        <div id="crs2prg"></div>
+    </div>
+    <div class="crsCon" onclick="coursepage()">
+        <h3>Course 3</h3>
+        <div id="crs3prg"></div>
+    </div>
+
+    <script src="script/profile.js"></script>
+</body>
+</html>
