@@ -49,6 +49,13 @@ function checkLoginStatus() {
         crs1cmplt: '0',
         crs2cmplt: '0',
         crs3cmplt: '0'
+      },
+      'Raifan': {
+        totalcrs: '1',
+        intrdcmplt: '80',
+        crs1cmplt: '0',
+        crs2cmplt: '0',
+        crs3cmplt: '0'
       }
     };
   
