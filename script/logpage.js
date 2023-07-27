@@ -12,6 +12,7 @@ function login() {
     { username: 'ubayboy', password: 'ubey1', name: 'Ubaydillah' },
     { username: 'rezpro91', password: 'prg91a', name: 'Rezky.A.P' },
     { username: 'karel01', password: 'okoklah', name: 'Karel.P' },
+    { username: 'raipan11', password: 'rai201', name: 'Raifan' },
   ];
 
   const findedUser = users.find((user) => user.username == username && user.password == password);
